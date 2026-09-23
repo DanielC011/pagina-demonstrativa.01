@@ -36,7 +36,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenInquiry }) => {
               AURA <span className="font-light tracking-[0.24em] text-xs sm:text-sm text-[#E7DED3]">FOTOGRAFIA</span>
             </a>
             <p className="text-sm font-sans text-[#E7DED3]/80 tracking-wide">
-              Fotografia de casamentos e histórias reais.
+              Fotografia de casamentos e histórias que merecem ser lembradas.
             </p>
             <p className="text-xs font-sans text-[#9A8066] uppercase tracking-widest font-medium">
               São Paulo — SP

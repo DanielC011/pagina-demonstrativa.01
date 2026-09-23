@@ -11,6 +11,7 @@ import { Process } from './components/Process';
 import { About } from './components/About';
 import { Details } from './components/Details';
 import { FAQ } from './components/FAQ';
+import { ContactSection } from './components/ContactSection';
 import { FinalCTA } from './components/FinalCTA';
 import { Footer } from './components/Footer';
 import { InquiryModal } from './components/InquiryModal';
@@ -30,7 +31,12 @@ export default function App() {
     if (serviceTitle) {
       setSelectedService(serviceTitle);
     }
-    setInquiryOpen(true);
+    const contactEl = document.getElementById('contato');
+    if (contactEl) {
+      contactEl.scrollIntoView({ behavior: 'smooth' });
+    } else {
+      setInquiryOpen(true);
+    }
   };
 
   const handleExplorePortfolio = () => {
@@ -140,11 +146,14 @@ export default function App() {
         {/* 12. FAQ */}
         <FAQ />
 
-        {/* 13. CTA Final */}
+        {/* 13. Formulário de Consulta de Disponibilidade */}
+        <ContactSection initialService={selectedService} />
+
+        {/* 14. CTA Final */}
         <FinalCTA onOpenInquiry={() => handleOpenInquiry()} />
       </main>
 
-      {/* 14. Footer */}
+      {/* 15. Footer */}
       <Footer onOpenInquiry={handleOpenInquiry} />
 
       {/* Floating Discreet Mobile CTA */}

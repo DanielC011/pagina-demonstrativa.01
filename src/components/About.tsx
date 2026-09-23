@@ -10,7 +10,7 @@ export const About: React.FC<AboutProps> = ({ onOpenImageModal }) => {
   const imgCaption = "Lucas Almeida — Fotógrafo e Diretor Criativo da AURA Fotografia";
 
   return (
-    <section id="sobre" className="py-20 sm:py-28 lg:py-36 bg-[#F4F0EA] text-[#171614] border-t border-[#171614]/10">
+    <section id="sobre" className="scroll-mt-20 sm:scroll-mt-24 py-20 sm:py-28 lg:py-36 bg-[#F4F0EA] text-[#171614] border-t border-[#171614]/10">
       <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-center">
           {/*

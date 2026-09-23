@@ -7,7 +7,7 @@ interface FinalCTAProps {
 
 export const FinalCTA: React.FC<FinalCTAProps> = ({ onOpenInquiry }) => {
   return (
-    <section id="contato" className="relative py-28 sm:py-36 lg:py-48 bg-[#171614] text-white overflow-hidden">
+    <section className="relative py-24 sm:py-32 lg:py-40 bg-[#171614] text-white overflow-hidden">
       {/* Background Image with Measured Contrast Scrim */}
       <div className="absolute inset-0 z-0">
         <img

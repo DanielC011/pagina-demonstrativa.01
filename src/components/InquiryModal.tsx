@@ -165,10 +165,7 @@ export const InquiryModal: React.FC<InquiryModalProps> = ({
                   >
                     <option value="São Paulo — Capital">São Paulo — Capital</option>
                     <option value="Grande São Paulo">Grande São Paulo</option>
-                    <option value="Litoral Paulista">Litoral Paulista</option>
-                    <option value="Interior de São Paulo">Interior de São Paulo</option>
-                    <option value="Destination Wedding (Outros Estados)">Destination Wedding (Brasil)</option>
-                    <option value="Internacional">Destino Internacional</option>
+                    <option value="Outro destino">Outro destino</option>
                   </select>
                 </div>
 
@@ -182,9 +179,9 @@ export const InquiryModal: React.FC<InquiryModalProps> = ({
                     className="w-full px-3.5 py-2.5 bg-white border border-[#171614]/15 rounded-[2px] text-sm text-[#171614] focus:outline-none focus:border-[#9A8066] transition-colors"
                   >
                     <option value="Fotografia de Casamento">Fotografia de Casamento</option>
-                    <option value="Ensaio Pré-Wedding">Pré-Wedding</option>
-                    <option value="Elopement Wedding">Elopements</option>
-                    <option value="Eventos Especiais">Eventos Especiais</option>
+                    <option value="Pré-Wedding">Pré-Wedding</option>
+                    <option value="Elopement">Elopement</option>
+                    <option value="Evento Especial">Evento Especial</option>
                   </select>
                 </div>
               </div>
@@ -207,8 +204,7 @@ export const InquiryModal: React.FC<InquiryModalProps> = ({
                   type="submit"
                   className="btn-aura w-full sm:flex-1 py-3 text-xs tracking-wider inline-flex items-center justify-center gap-2"
                 >
-                  <Send size={15} />
-                  <span>ENVIAR CONSULTA</span>
+                  <span>CONSULTAR DISPONIBILIDADE</span>
                 </button>
                 <button
                   type="button"

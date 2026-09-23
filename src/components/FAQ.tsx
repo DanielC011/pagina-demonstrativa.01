@@ -7,7 +7,7 @@ export const FAQ: React.FC = () => {
   const faqs = [
     {
       q: 'Com quanto tempo de antecedência devo contratar?',
-      a: 'Recomendamos entrar em contato com 8 a 14 meses de antecedência, principalmente para datas em períodos mais concorridos como primavera e outono. Realizamos apenas um casamento por final de semana para garantir dedicação exclusiva e imersão total na história de cada casal.',
+      a: 'Quanto antes, melhor — especialmente para datas mais concorridas. A disponibilidade é sempre consultada de acordo com a data e o local do evento.',
     },
     {
       q: 'Vocês atendem fora de São Paulo?',
@@ -44,7 +44,7 @@ export const FAQ: React.FC = () => {
   };
 
   return (
-    <section id="faq" className="py-20 sm:py-28 lg:py-36 bg-[#E7DED3] text-[#171614] border-t border-[#171614]/10">
+    <section id="faq" className="scroll-mt-20 sm:scroll-mt-24 py-20 sm:py-28 lg:py-36 bg-[#E7DED3] text-[#171614] border-t border-[#171614]/10">
       <div className="max-w-4xl mx-auto px-5 sm:px-8 lg:px-12">
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto mb-14 sm:mb-20">

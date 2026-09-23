@@ -2,5 +2,7 @@
   "name": "AURA Fotografia | Fotografia de Casamentos",
   "description": "Fotografia de casamentos com olhar natural, editorial e cinematográfico. São Paulo, Grande São Paulo e destinos selecionados.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }

@@ -34,7 +34,7 @@ export const Services: React.FC<ServicesProps> = ({ onSelectService }) => {
   ];
 
   return (
-    <section id="servicos" className="py-20 sm:py-28 lg:py-36 bg-[#E7DED3] text-[#171614] border-t border-[#171614]/10">
+    <section id="servicos" className="scroll-mt-20 sm:scroll-mt-24 py-20 sm:py-28 lg:py-36 bg-[#E7DED3] text-[#171614] border-t border-[#171614]/10">
       <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12">
         {/* Section Header */}
         <div className="max-w-3xl mb-14 sm:mb-20">

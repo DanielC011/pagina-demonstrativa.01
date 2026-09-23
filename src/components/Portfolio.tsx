@@ -71,7 +71,7 @@ interface PortfolioProps {
 
 export const Portfolio: React.FC<PortfolioProps> = ({ onOpenLightbox }) => {
   return (
-    <section id="portfolio" className="py-20 sm:py-28 lg:py-36 bg-[#F4F0EA] text-[#171614]">
+    <section id="portfolio" className="scroll-mt-20 sm:scroll-mt-24 py-20 sm:py-28 lg:py-36 bg-[#F4F0EA] text-[#171614]">
       <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12">
         {/* Section Header */}
         <div className="max-w-3xl mb-14 sm:mb-20">
